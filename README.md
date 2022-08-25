@@ -12,7 +12,7 @@ Azure. They can be used to recreate the entire deployment pictured above.
 Alternatively, select portions of the following Ansible playbook files can be
 used to install only certain portions of it, such as Filebeat.
 
-  * [Elk Installation Playbook](./ansible/roles/install-elk.yml) to install and
+  * [Elk Installation Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/install-elk.yml) to install and
     configure the ELK server.
   * [Filebeat Playbook](./ansible/roles/filebeat-playbook.yml) to install and
     configure Filebeat on the target machines.
