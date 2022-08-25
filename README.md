@@ -5,7 +5,7 @@
 The files in this repository were used to configure the network depicted in the
 diagram below.
 
-![network-diagram](.Diagrams/Maiorana Unit 12 Azure.png)
+![Network-Diagram](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Diagrams/Maiorana%20Unit%2012%20Azure.png)
 
 These files have been tested and used to generate a live ELK deployment on
 Azure. They can be used to recreate the entire deployment pictured above.
