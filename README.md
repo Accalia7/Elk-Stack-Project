@@ -14,9 +14,9 @@ used to install only certain portions of it, such as Filebeat.
 
   * [Elk Installation Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/install-elk.yml) to install and
     configure the ELK server.
-  * [Filebeat Playbook](./ansible/roles/filebeat-playbook.yml) to install and
+  * [Filebeat Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml) to install and
     configure Filebeat on the target machines.
-  * [Metricbeat Playbook](./ansible/roles/metricbeat-playbook.yml) to install and
+  * [Metricbeat Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml) to install and
     configure Metricbeat on the target machines.
 
 This document contains the following details of the deployment:
@@ -86,21 +86,21 @@ typos and human error when configuring the machine.
 
 Three playbooks in total were used, each implementing the following tasks:
 
-* [Install ELK Playbook](./ansible/roles/install-elk.yml)
+* [Install ELK Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/install-elk.yml)
   * Install docker.io package using `apt`
   * Install python3-pip package manager using `apt`
   * Install the docker module using `pip`
   * Configure the VM to use more memory using the `sysctl` module
   * Download and launch the docker container for the ELK stack
 
-* [Install Filebeat Playbook](./ansible/roles/filebeat-playbook.yml)
+* [Install Filebeat Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/filebeat-playbook.yml)
   * Download and install Filebeat
   * Copy Filebeat configuration
   * Enable Filebeat system module
   * Setup Filebeat
   * Start and enable Filebeat service
 
-* [Install Metricbeat Playbook](./ansible/roles/metricbeat-playbook.yml)
+* [Install Metricbeat Playbook](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/metricbeat-playbook.yml)
   * Download and install Metricbeat
   * Copy Metricbeat configuration
   * Enable Metricbeat docker module
@@ -110,7 +110,7 @@ Three playbooks in total were used, each implementing the following tasks:
 The following screenshot displays the result of running `docker ps` after
 successfully configuring the ELK instance.
 
-![docker-ps-output](./images/docker-ps-output.png)
+![docker-ps-output](https://github.com/Accalia7/Elk-Stack-Project/blob/main/Ansible/docker-ps-output.png)
 
 ### Target Machines and Beats
 
